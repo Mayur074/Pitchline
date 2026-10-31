@@ -1,0 +1,65 @@
+date,home_team,away_team,home_score,away_score,tournament,neutral,stage,year
+1998-06-10,Brazil,Scotland,2,1,World Cup,True,Group A,1998
+1998-06-10,Morocco,Norway,2,2,World Cup,True,Group A,1998
+1998-06-16,Scotland,Norway,1,1,World Cup,True,Group A,1998
+1998-06-16,Brazil,Morocco,3,0,World Cup,True,Group A,1998
+1998-06-23,Brazil,Norway,1,2,World Cup,True,Group A,1998
+1998-06-23,Scotland,Morocco,0,3,World Cup,True,Group A,1998
+1998-06-11,Italy,Chile,2,2,World Cup,True,Group B,1998
+1998-06-11,Cameroon,Austria,1,1,World Cup,True,Group B,1998
+1998-06-17,Chile,Austria,1,1,World Cup,True,Group B,1998
+1998-06-17,Italy,Cameroon,3,0,World Cup,True,Group B,1998
+1998-06-23,Italy,Austria,2,1,World Cup,True,Group B,1998
+1998-06-23,Chile,Cameroon,1,1,World Cup,True,Group B,1998
+1998-06-12,Denmark,Saudi Arabia,1,0,World Cup,True,Group C,1998
+1998-06-12,France,South Africa,3,0,World Cup,False,Group C,1998
+1998-06-18,South Africa,Denmark,1,1,World Cup,True,Group C,1998
+1998-06-18,France,Saudi Arabia,4,0,World Cup,False,Group C,1998
+1998-06-24,France,Denmark,2,1,World Cup,False,Group C,1998
+1998-06-24,South Africa,Saudi Arabia,2,2,World Cup,True,Group C,1998
+1998-06-12,Paraguay,Bulgaria,0,0,World Cup,True,Group D,1998
+1998-06-13,Nigeria,Spain,3,2,World Cup,True,Group D,1998
+1998-06-19,Nigeria,Bulgaria,1,0,World Cup,True,Group D,1998
+1998-06-19,Spain,Paraguay,0,0,World Cup,True,Group D,1998
+1998-06-24,Paraguay,Nigeria,3,1,World Cup,True,Group D,1998
+1998-06-24,Spain,Bulgaria,6,1,World Cup,True,Group D,1998
+1998-06-13,Mexico,South Korea,3,1,World Cup,True,Group E,1998
+1998-06-13,Netherlands,Belgium,0,0,World Cup,True,Group E,1998
+1998-06-20,Belgium,Mexico,2,2,World Cup,True,Group E,1998
+1998-06-20,Netherlands,South Korea,5,0,World Cup,True,Group E,1998
+1998-06-25,Netherlands,Mexico,2,2,World Cup,True,Group E,1998
+1998-06-25,Belgium,South Korea,1,1,World Cup,True,Group E,1998
+1998-06-14,Yugoslavia,Iran,1,0,World Cup,True,Group F,1998
+1998-06-15,Germany,United States,2,0,World Cup,True,Group F,1998
+1998-06-21,Germany,Yugoslavia,2,2,World Cup,True,Group F,1998
+1998-06-21,United States,Iran,1,2,World Cup,True,Group F,1998
+1998-06-25,Germany,Iran,2,0,World Cup,True,Group F,1998
+1998-06-25,United States,Yugoslavia,0,1,World Cup,True,Group F,1998
+1998-06-15,England,Tunisia,2,0,World Cup,True,Group G,1998
+1998-06-15,Romania,Colombia,1,0,World Cup,True,Group G,1998
+1998-06-22,Colombia,Tunisia,1,0,World Cup,True,Group G,1998
+1998-06-22,Romania,England,2,1,World Cup,True,Group G,1998
+1998-06-26,Romania,Tunisia,1,1,World Cup,True,Group G,1998
+1998-06-26,Colombia,England,0,2,World Cup,True,Group G,1998
+1998-06-14,Argentina,Japan,1,0,World Cup,True,Group H,1998
+1998-06-14,Jamaica,Croatia,1,3,World Cup,True,Group H,1998
+1998-06-20,Japan,Croatia,0,1,World Cup,True,Group H,1998
+1998-06-21,Argentina,Jamaica,5,0,World Cup,True,Group H,1998
+1998-06-26,Argentina,Croatia,1,0,World Cup,True,Group H,1998
+1998-06-26,Japan,Jamaica,1,2,World Cup,True,Group H,1998
+1998-06-27,Italy,Norway,1,0,World Cup,True,Round of 16,1998
+1998-06-27,Brazil,Chile,4,1,World Cup,True,Round of 16,1998
+1998-06-28,France,Paraguay,1,0,World Cup,False,Round of 16,1998
+1998-06-28,Nigeria,Denmark,1,4,World Cup,True,Round of 16,1998
+1998-06-29,Germany,Mexico,2,1,World Cup,True,Round of 16,1998
+1998-06-29,Netherlands,Yugoslavia,2,1,World Cup,True,Round of 16,1998
+1998-06-30,Romania,Croatia,0,1,World Cup,True,Round of 16,1998
+1998-06-30,Argentina,England,2,2,World Cup,True,Round of 16,1998
+1998-07-03,Italy,France,0,0,World Cup,False,Quarter-final,1998
+1998-07-03,Brazil,Denmark,3,2,World Cup,True,Quarter-final,1998
+1998-07-04,Netherlands,Argentina,2,1,World Cup,True,Quarter-final,1998
+1998-07-04,Germany,Croatia,0,3,World Cup,True,Quarter-final,1998
+1998-07-07,Brazil,Netherlands,1,1,World Cup,True,Semi-final,1998
+1998-07-08,France,Croatia,2,1,World Cup,False,Semi-final,1998
+1998-07-11,Netherlands,Croatia,1,2,World Cup,True,Third Place,1998
+1998-07-12,France,Brazil,3,0,World Cup,False,Final,1998

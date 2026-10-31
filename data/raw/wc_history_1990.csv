@@ -1,0 +1,53 @@
+date,home_team,away_team,home_score,away_score,tournament,neutral,stage,year
+1990-06-08,Italy,Austria,1,0,World Cup,False,Group A,1990
+1990-06-09,Czechoslovakia,USA,5,1,World Cup,True,Group A,1990
+1990-06-14,Italy,USA,1,0,World Cup,False,Group A,1990
+1990-06-15,Austria,Czechoslovakia,0,1,World Cup,True,Group A,1990
+1990-06-19,Italy,Czechoslovakia,2,0,World Cup,False,Group A,1990
+1990-06-19,Austria,USA,2,1,World Cup,True,Group A,1990
+1990-06-08,Cameroon,Argentina,1,0,World Cup,True,Group B,1990
+1990-06-09,Soviet Union,Romania,0,2,World Cup,True,Group B,1990
+1990-06-13,Argentina,Soviet Union,2,0,World Cup,True,Group B,1990
+1990-06-13,Cameroon,Romania,2,1,World Cup,True,Group B,1990
+1990-06-17,Argentina,Romania,1,1,World Cup,True,Group B,1990
+1990-06-17,Cameroon,Soviet Union,0,4,World Cup,True,Group B,1990
+1990-06-10,Brazil,Sweden,2,1,World Cup,True,Group C,1990
+1990-06-11,Costa Rica,Scotland,1,0,World Cup,True,Group C,1990
+1990-06-16,Brazil,Costa Rica,1,0,World Cup,True,Group C,1990
+1990-06-16,Sweden,Scotland,1,2,World Cup,True,Group C,1990
+1990-06-20,Sweden,Costa Rica,1,2,World Cup,True,Group C,1990
+1990-06-20,Brazil,Scotland,1,0,World Cup,True,Group C,1990
+1990-06-09,United Arab Emirates,Colombia,0,2,World Cup,True,Group D,1990
+1990-06-10,West Germany,Yugoslavia,4,1,World Cup,True,Group D,1990
+1990-06-14,Yugoslavia,Colombia,1,0,World Cup,True,Group D,1990
+1990-06-15,West Germany,United Arab Emirates,5,1,World Cup,True,Group D,1990
+1990-06-19,West Germany,Colombia,1,1,World Cup,True,Group D,1990
+1990-06-19,Yugoslavia,United Arab Emirates,4,1,World Cup,True,Group D,1990
+1990-06-12,Belgium,South Korea,2,0,World Cup,True,Group E,1990
+1990-06-13,Uruguay,Spain,0,0,World Cup,True,Group E,1990
+1990-06-17,South Korea,Spain,1,3,World Cup,True,Group E,1990
+1990-06-18,Belgium,Uruguay,3,1,World Cup,True,Group E,1990
+1990-06-21,Belgium,Spain,1,2,World Cup,True,Group E,1990
+1990-06-21,South Korea,Uruguay,0,1,World Cup,True,Group E,1990
+1990-06-11,England,Republic of Ireland,1,1,World Cup,True,Group F,1990
+1990-06-11,Netherlands,Egypt,1,1,World Cup,True,Group F,1990
+1990-06-16,England,Netherlands,0,0,World Cup,True,Group F,1990
+1990-06-17,Republic of Ireland,Egypt,0,0,World Cup,True,Group F,1990
+1990-06-21,England,Egypt,1,0,World Cup,True,Group F,1990
+1990-06-21,Republic of Ireland,Netherlands,1,1,World Cup,True,Group F,1990
+1990-06-23,Cameroon,Colombia,2,1,World Cup,True,Round of 16,1990
+1990-06-23,Czechoslovakia,Costa Rica,4,1,World Cup,True,Round of 16,1990
+1990-06-24,Argentina,Brazil,1,0,World Cup,True,Round of 16,1990
+1990-06-24,West Germany,Netherlands,2,1,World Cup,True,Round of 16,1990
+1990-06-25,Republic of Ireland,Romania,0,0,World Cup,True,Round of 16,1990
+1990-06-25,Italy,Uruguay,2,0,World Cup,False,Round of 16,1990
+1990-06-26,Yugoslavia,Spain,2,1,World Cup,True,Round of 16,1990
+1990-06-26,England,Belgium,1,0,World Cup,True,Round of 16,1990
+1990-06-30,Argentina,Yugoslavia,0,0,World Cup,True,Quarter-final,1990
+1990-06-30,Italy,Republic of Ireland,1,0,World Cup,False,Quarter-final,1990
+1990-07-01,West Germany,Czechoslovakia,1,0,World Cup,True,Quarter-final,1990
+1990-07-01,England,Cameroon,3,2,World Cup,True,Quarter-final,1990
+1990-07-03,Argentina,Italy,1,1,World Cup,False,Semi-final,1990
+1990-07-04,West Germany,England,1,1,World Cup,True,Semi-final,1990
+1990-07-06,Italy,England,2,1,World Cup,False,Third Place,1990
+1990-07-08,West Germany,Argentina,1,0,World Cup,True,Final,1990
