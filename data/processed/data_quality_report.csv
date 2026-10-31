@@ -1,0 +1,8 @@
+check_name,category,passed,detail,affected_rows
+no_nulls_in_required_fields,Completeness,True,All required fields populated,0
+no_negative_scores,Validity,True,No negative scores found,0
+no_team_plays_itself,Validity,True,No self-matches found,0
+no_duplicate_matches,Uniqueness,True,No duplicate matches found,0
+expected_match_count_per_tournament,Business Rule,True,All completed tournaments have the correct real match count,0
+dates_within_real_tournament_windows,Validity,True,All match dates fall within their tournament's real window,0
+data_freshness,Freshness,False,Most recent real match: 2026-06-21 (132 days ago),1

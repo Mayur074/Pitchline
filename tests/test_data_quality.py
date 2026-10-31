@@ -143,8 +143,18 @@ class TestDataFreshnessCheck:
         from src.data.combine_real_history import load_full_real_history
         df = load_full_real_history(include_2026=True)
         df["date"] = df["date"].astype(str)
-        result = check_data_freshness(df, max_staleness_days=30)
-        assert result.passed  # generous window since the tournament is actively running
+        latest = pd.Timestamp(df[df["year"] == 2026]["date"].max())
+        # Pin "today" to the data snapshot so the test doesn't start failing as the calendar moves on.
+        result = check_data_freshness(df, max_staleness_days=30, as_of=str(latest + pd.Timedelta(days=1)))
+        assert result.passed
+
+    def test_flags_stale_data(self):
+        from src.data.combine_real_history import load_full_real_history
+        df = load_full_real_history(include_2026=True)
+        df["date"] = df["date"].astype(str)
+        latest = pd.Timestamp(df[df["year"] == 2026]["date"].max())
+        result = check_data_freshness(df, max_staleness_days=30, as_of=str(latest + pd.Timedelta(days=60)))
+        assert not result.passed
 
 
 class TestRunAllQualityChecks:
@@ -158,7 +168,7 @@ class TestRunAllQualityChecks:
         assert expected.issubset(set(report.columns))
 
     def test_real_dataset_passes_all_structural_checks(self):
-        """The real, current dataset should pass every check we ship with."""
+        """The real dataset should pass every structural check (freshness depends on today's date)."""
         report = run_all_quality_checks()
-        failing = report[~report["passed"]]
+        failing = report[~report["passed"] & (report["category"] != "Freshness")]
         assert len(failing) == 0, f"Unexpected quality failures: {failing[['check_name','detail']].to_dict('records')}"

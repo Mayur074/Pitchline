@@ -10,7 +10,7 @@ Before a single ball is kicked in any upcoming fixture, this is the most honest 
 
 ```
 Favorite agreement with real betting market: 90%
-Mean absolute difference in implied win probability: 12.1 points
+Mean absolute difference in implied win probability: 11.8 points
 ```
 
 (10 upcoming fixtures with published market odds, checked June 21, 2026 — see `src/models/validate_vs_market.py`)
