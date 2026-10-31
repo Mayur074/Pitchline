@@ -173,11 +173,13 @@ def check_dates_within_real_tournament_windows(df: pd.DataFrame) -> QualityCheck
     )
 
 
-def check_data_freshness(df: pd.DataFrame, max_staleness_days: int = 7) -> QualityCheckResult:
+def check_data_freshness(df: pd.DataFrame, max_staleness_days: int = 7,
+                         as_of: str | None = None) -> QualityCheckResult:
     """
     Flags if the most recent 2026 match in the dataset is older than
     max_staleness_days — a real freshness check, the same pattern used to
     monitor whether a production pipeline has stopped receiving new data.
+    `as_of` pins the reference date (defaults to today) so tests are not clock-dependent.
     """
     matches_2026 = df[df["year"] == 2026]
     if matches_2026.empty:
@@ -189,7 +191,8 @@ def check_data_freshness(df: pd.DataFrame, max_staleness_days: int = 7) -> Quali
         )
 
     most_recent = pd.Timestamp(matches_2026["date"].max())
-    staleness_days = (pd.Timestamp.now().normalize() - most_recent).days
+    reference = pd.Timestamp(as_of) if as_of else pd.Timestamp.now().normalize()
+    staleness_days = (reference - most_recent).days
 
     return QualityCheckResult(
         check_name="data_freshness",

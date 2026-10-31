@@ -1,0 +1,11 @@
+home_team,away_team,elo_implied_home_win_pct,market_home_win_pct,abs_difference,same_favorite
+New Zealand,Egypt,22.6,16.1,6.5,True
+Argentina,Austria,80.0,63.6,16.4,True
+France,Iraq,97.3,91.0,6.3,True
+Norway,Senegal,35.6,41.6,6.0,True
+Jordan,Algeria,27.1,15.9,11.2,True
+Portugal,Uzbekistan,92.2,81.0,11.2,True
+England,Ghana,81.0,80.0,1.0,True
+Panama,Croatia,14.8,14.7,0.1,True
+Colombia,Congo DR,93.0,63.6,29.4,True
+Switzerland,Canada,69.1,39.1,30.0,False

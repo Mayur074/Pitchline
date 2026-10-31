@@ -1,0 +1,3 @@
+experiment_name,null_hypothesis,alternative_hypothesis,test_used,test_statistic,p_value,significant,effect_size,effect_description,sample_size
+Home Advantage Test,Home teams do not win at a higher rate than away teams,Home teams win at a significantly higher rate than away teams,Two-proportion z-test,3.925,8.7e-05,True,0.3636,Home teams win 56.4% of non-neutral matches vs 20.0% for away teams,55
+ELO Model Calibration Test,The model's predicted win probabilities match real observed outcome frequencies,The model is systematically over- or under-confident,Chi-square goodness-of-fit test,23.863,8.5e-05,True,0.1314,Mean absolute calibration error across 5 probability buckets: 13.1%,592
